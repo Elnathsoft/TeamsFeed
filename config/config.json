@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "teams-feed-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/teamsFeed/TeamsFeedWebPart.js",
+          "manifest": "./src/webparts/teamsFeed/TeamsFeedWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TeamsFeedWebPartStrings": "lib/webparts/teamsFeed/loc/{locale}.js"
+  }
+}
